@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        TF_VAR_region = 'us-ashburn-1' // Set your OCI region
+        TF_VAR_region = 'ap-mumbai-1' // Set your OCI region
         TF_VAR_tenancy_ocid = credentials('OCI_TENANCY_OCID') // OCI Tenancy OCID stored in Jenkins credentials
         TF_VAR_user_ocid = credentials('OCI_USER_OCID') // OCI User OCID stored in Jenkins credentials
         TF_VAR_fingerprint = credentials('OCI_FINGERPRINT') // OCI Fingerprint stored in Jenkins credentials
