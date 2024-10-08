@@ -28,7 +28,7 @@ vcn_config = [
 storage_config = [
   {
     compartment_id     = "ocid1.tenancy.oc1..aaaaaaaa7myhwo2h64yblckhab7r5qn6lf7vw57vkaqvt4vjw5vasdvmuqxa"
-    bucket_name        = "my-new-bucket1"
+    bucket_name        = "my-new-bucket2"
     bucket_namespace   = "bmhhib0krycu"
     storage_tier       = "Standard"
     public_access_type = "ObjectReadWithoutList"
