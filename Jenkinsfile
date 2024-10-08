@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your Terraform code from your repository
-                git url: 'https://github.com/your-repo/your-terraform-code.git', branch: 'main'
+                git url: 'https://github.com/Sorabhss/oci_tf_code.git', branch: 'main'
             }
         }
 
