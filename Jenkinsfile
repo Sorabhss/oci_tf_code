@@ -21,7 +21,7 @@ pipeline {
             steps {
                 script {
                     // Initialize Terraform
-                    sh 'terraform init'
+                    bat 'terraform init'
                 }
             }
         }
@@ -30,7 +30,7 @@ pipeline {
             steps {
                 script {
                     // Create a Terraform plan
-                    sh 'terraform plan -out=tfplan'
+                    bat 'terraform plan -out=tfplan'
                 }
             }
         }
@@ -39,7 +39,7 @@ pipeline {
             steps {
                 script {
                     // Apply the Terraform plan
-                    sh 'terraform apply -auto-approve tfplan'
+                    bat 'terraform apply -auto-approve tfplan'
                 }
             }
         }
